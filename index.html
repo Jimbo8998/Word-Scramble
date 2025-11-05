@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>WordScramble · Home</title>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <img class="logo" src="assets/images/logo.svg" alt="WordScramble logo"/>
+    <h1>WordScramble</h1>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+    <button id="themeToggle" class="button secondary" aria-pressed="false">Toggle Theme</button>
+  </header>
+
+  <main class="container">
+    <!-- Hero with image -->
+    <div class="hero reveal">
+      <img src="assets/images/hero.svg" alt="Colorful gradient banner with circles" style="width:100%; display:block;">
+    </div>
+
+    <section style="margin-top: 22px;">
+      <h2>Fast-paced, browser-native word fun</h2>
+      <p class="reveal">Unscramble words before time runs out. No accounts, no backend—just HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <!-- 3→8 column layout -->
+    <section style="margin-top: 20px;">
+      <div class="grid">
+        <article class="card reveal span-3">
+          <h3>Real-time Timer</h3>
+          <p>Accurate countdown with pause/resume and visual urgency cues.</p>
+        </article>
+        <article class="card reveal span-2">
+          <h3>Difficulty Modes</h3>
+          <p>Start chill or go extreme—shuffle word pools on the fly.</p>
+        </article>
+        <article class="card reveal span-3">
+          <h3>Local High Scores</h3>
+          <p>Persistent scores via <code>localStorage</code>—no internet needed.</p>
+        </article>
+        <article class="card reveal span-4">
+          <h3>Keyboard-first</h3>
+          <p>Optimized controls; play entirely from your keyboard.</p>
+        </article>
+        <article class="card reveal span-4">
+          <h3>Responsive</h3>
+          <p>Mobile-first CSS grid—this section demonstrates a 3→8 column layout.</p>
+        </article>
+      </div>
+    </section>
+
+    <section style="margin-top: 26px;">
+      <button class="button" id="shuffleFeatures">Shuffle Highlights (DOM demo)</button>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 WordScramble · Built for Client-side Web Development</footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
