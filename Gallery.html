@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>WordScramble · Gallery</title>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <img class="logo" src="assets/images/logo.svg" alt="WordScramble logo"/>
+    <h1>WordScramble</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html" class="active">Gallery</a>
+    </nav>
+    <button id="themeToggle" class="button secondary" aria-pressed="false">Toggle Theme</button>
+  </header>
+
+  <main class="container">
+    <section class="card reveal">
+      <h2>Gallery & Media</h2>
+      <p>Click a tile to toggle grayscale. Use the filter to switch all images.</p>
+      <div class="gallery" id="gallery">
+        <img src="assets/images/gallery.svg" alt="Abstract gallery blocks"/>
+        <img src="assets/images/hero.svg" alt="Gradient hero circles"/>
+        <img src="assets/images/logo.svg" alt="WS logo mark"/>
+      </div>
+      <button class="button filter-toggle" id="toggleFilters">Toggle Grayscale (JS demo)</button>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 WordScramble · Built for Client-side Web Development</footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
